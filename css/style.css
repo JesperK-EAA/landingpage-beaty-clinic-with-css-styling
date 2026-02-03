@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 500px;
+    background: #F3F1E5; 
+    padding: 32px;
+    height: fit-content;
+}
+
+img {
+
+    width: 100%;
+   object-fit: contain;
+    border-radius: 32px;
+}
+
+p {
+    font-weight: bold;
+}
+
+#heading-size {
+    font-size: 50px;
+}
